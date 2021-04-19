@@ -1,13 +1,13 @@
-// Write your code here!
-<!DOCTYPE html>
 
-<html>
-  <head>
-    <title>victory</title>
-  </head>
-  <script type="Sammy is the champion">
-  </script>
-  <body>
-    <main id="victory"></main>
-  </body>
-</html>
+
+  
+const testVar = "hi"
+
+
+document.querySelector("main#main").remove();
+
+
+const newHeader = document.createElement("h1");
+newHeader.id = "victory"
+newHeader.innerHTML = "Shmuel is the champion!";
+newHeader.className = "victory";
